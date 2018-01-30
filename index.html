@@ -10,7 +10,31 @@
 
   <body>
 
-  <main>
+  <main id="content">
+    <h1>Bladesmithing</h1>
+    <p>Come join the IIT Bladesmithing Club and learn how to create swords and knives</p>
+    <form name="myForm" action="#null" onsubmit="return valiateForm()"method="post">
+      <ol>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="username" />
+
+        <label for="mail">E-mail:</label>
+        <input placeholder="email@mysitesucks.com" type="text" id="mail" name="user_mail" />
+
+        <label for="phone">Phone Number:</label>
+        <input type="text" id="phone" name="phone" />
+
+        <label for="bday">Your Birthday:</label>
+        <input type="text" id="bday" name="bday" />
+
+        <label for="animal">Favorite Animal:</label>
+        <input type="text" id="animal" name="animal" />
+
+          <button type="submit" value="Submit">Send your message</button>
+    </ol>
+
+    </form>
 
 
 	</main>
