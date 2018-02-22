@@ -8,35 +8,36 @@
   <link href="https://fonts.googleapis.com/css?family=Alegreya+SC" rel="stylesheet">
   <link rel="stylesheet" href="//basehold.it/24">
   </head>
-
   <body>
-
+    <header id="header">
+      <h1>Bladesmithing</h1>
+    </header>
+      <h2>Join the IIT Bladesmithing Club and learn how to create swords and knives </h2>
   <main id="content">
-    <h1>Bladesmithing</h1>
-    <p>Join the IIT Bladesmithing Club and learn how to create swords and knives that will drain the blood of your enemies</p>
     <form name="myForm" action="#null" onsubmit="return valiateForm()"method="post">
-      <ol>
-
+      <ul>
         <label for="name">Name:</label>
-        <input type="text" id="name" name="username" />
+        <input type="text" placeholder="Firstname, Lastname" id="name" name="username" />
 
         <label for="mail">E-mail:</label>
-        <input placeholder="email@mysitesucks.com" type="text" id="mail" name="user_mail" />
+        <input placeholder="email@hawk.iit.edu" type="text" id="mail" name="user_mail" />
 
         <label for="phone">Phone Number:</label>
-        <input type="text" id="phone" name="phone" />
-
-        <label for="bday">Your Birthday:</label>
-        <input type="text" id="bday" name="bday" />
+        <input type="text" placeholder="(123)456-7890" id="phone" name="phone" />
 
         <label for="weapon">Favorite Weapon:</label>
-        <input type="text" id="wpn" name="weapon" />
+        <input type="text" placeholder="Example: Machete, Longsword, Butterfly Knife, etc" id="wpn" name="weapon" />
 
-          <button type="submit" value="Submit">Send your message</button>
-    </ol>
+        <label for="password">Create Password:</label>
+        <input type="text" placeholder="At least 4 characters with an uppercase letter and a number" id="password" name="password" />
+        <button type="submit" value="Submit">Submit!</button>
+    </ul>
 
     </form>
-
+    <figure>
+      <img src="C:\Users\User\Desktop\project-1-362\img\collage.jpg" alt="collage"/>
+      <figcaption>Cutting the Knife Stencil From A Steel Plate"</figcaption>
+    </figure>
 
 	</main>
 	</body>

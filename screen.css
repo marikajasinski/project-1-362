@@ -13,33 +13,81 @@ html {
   font-size: 1.125em; /* 18 / 16 = 1.125em */
   line-height: 1.222em; /* 22 / 18 = 1.222em */
   font-family: 'Alegreya SC', serif; /* chose font to have a LOTR feeling*/
-  
+  background-color: #404040;
+  color: #e27e36
 }
 
 h1 {
-  font-size: 2.25em; /* 40.5 / 18 = 2.25 */
+  font-size: 4em; /* 40.5 / 18 = 2.25 */
   line-height: 1.0864em; /* 44 / 40.5 = 1.0864 */
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 1em;
 }
 h2 {
   font-size: 1.5em; /* 27 / 18 = 1.5 */
   line-height: 1.222em; /* 33 / 27 = 1.222 */
+  text-align: center;
+  padding-bottom: 0.005em;
+  padding-left: 1em;
+}
+form{
+  margin: 2em;
+  width: 26.667em;
 }
 input {
+  font-size: 0.625em;
   width: 100%;
   box-sizing: border-box;
   border: 0;
-  line-height: 1;
-  padding: 13px;
+  line-height: 1.5em;
+  padding: 0.813em;
   background: #DDD;
+
 }
 
 label {
-  margin-bottom: 22px;
+  margin-bottom: 1.5em;
 
 }
-input [type="submit"]
-/* Layout Styles */
+img{
+  display: right;
+  max-width: 100%
+  margin: auto;
+}
 
+figcaption {
+  font-size: 0.75em; /* 15.004/20  */
+  line-height: 1.3329em;
+  padding-top: 0.3332em;
+  padding-bottom: 0.3332em;
+}
+footer{
+  padding-bottom: 2em;
+}
+
+input [type="text"]{
+  display: block;
+  margin-bottom: 1.5em;
+  margin-top: 2em;
+  width: 100%;
+  border: 0.167em, solid black;
+
+}
+button{
+margin-top: 1em;
+  margin-bottom: 1.5em;
+  width: 30%;
+  border: 0.167em, solid black;
+}
+
+/* Layout Styles */
+#content {
+  padding-top: 2em;
+  padding-left: 2em;
+  padding-right: 2em
+
+}
 /* Modular Styles */
 
 /* State Styles */
