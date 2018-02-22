@@ -21,7 +21,7 @@ h1 {
   font-size: 4em; /* 40.5 / 18 = 2.25 */
   line-height: 1.0864em; /* 44 / 40.5 = 1.0864 */
   text-align: center;
-  padding-top: 2em;
+  padding-top: 1em;
   padding-bottom: 1em;
 }
 h2 {
@@ -49,6 +49,12 @@ input {
 label {
   margin-bottom: 1.5em;
 
+}
+
+figure {
+  text-align: right;
+  margin-right: 2em;
+  margin-top: 0.05em;
 }
 img{
   display: right;
