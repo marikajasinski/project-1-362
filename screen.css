@@ -97,3 +97,32 @@ margin-top: 1em;
 /* Modular Styles */
 
 /* State Styles */
+@media screen and (min-width: 600px) {
+  main {
+    max-width: 65%;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  main {
+    max-width: 55%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  main {
+    max-width: 63%;
+    overflow: hidden;
+}
+}
+@media screen and (min-width: 1300px) {
+  main {
+    max-width: 50%;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  main {
+    max-width: 45%;
+  }
+}
